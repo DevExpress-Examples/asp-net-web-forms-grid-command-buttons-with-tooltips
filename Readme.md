@@ -3,21 +3,15 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2050)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [MyException.cs](./CS/WebSite/App_Code/MyException.cs)
-* [Default.aspx](./CS/WebSite/Default.aspx)
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs)
-<!-- default file list end -->
-# ASPxGridView - How to emulate custom and action buttons with tooltips
+# Grid View for ASP.NET Web Forms - How to create command buttons with tooltips
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e2050/)**
 <!-- run online end -->
 
+Command buttons in [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) do not allow to specify tooltips for them. This example demonstrates how to emulate command buttons or custom buttons with HTML element and provide tooltips for them (attribute `title`).
 
-<p>While this functionality is not available out of the box, it is possible to emulate command buttons with HTML element and assign tooltips using default HTML approach (attribute <strong>title</strong>).<br><br>In this example, we created a Data Item Template inside the command column:</p>
-
+![](grid-custom-buttons-with-tooltip.png)
 
 ```aspx
 <dx:GridViewDataTextColumn Name="Command" Caption="#" VisibleIndex="0">
@@ -30,8 +24,7 @@
 </dx:GridViewDataTextColumn>
 ```
 
+## Files to Review
 
-
-<br/>
-
-
+* [Default.aspx](./CS/WebSite/Default.aspx)
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs)
