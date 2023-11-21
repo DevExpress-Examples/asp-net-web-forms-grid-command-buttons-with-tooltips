@@ -9,7 +9,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e2050/)**
 <!-- run online end -->
 
-Command buttons in [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) do not allow to specify tooltips for them. This example demonstrates how to emulate command buttons or custom buttons with HTML element and provide tooltips for them (attribute `title`).
+Command buttons in [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) do not support tooltips. This example demonstrates how to emulate command buttons or custom buttons with HTML element and provide tooltips for them (attribute `title`).
 
 ![](grid-custom-buttons-with-tooltip.png)
 
